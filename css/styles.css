@@ -1,0 +1,679 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap');
+html {
+  scroll-behavior: smooth;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins",sans-serif;
+}
+.section.one{
+   background-image: url(https://media.wired.co.uk/photos/63b8c50e7d4b632fbb395e37/master/w_1600,c_limit/CES-2023-PEUGEOT_INCEPTION_CONCEPT_2301CN202.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: blueviolet;
+
+}
+body {
+  font-family: 'Noto Sans HK', sans-serif;
+  background: #fff;
+  background-image: url(https://media.wired.co.uk/photos/63b8c50e7d4b632fbb395e37/master/w_1600,c_limit/CES-2023-PEUGEOT_INCEPTION_CONCEPT_2301CN202.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: blueviolet;
+}
+.slider {
+  margin-bottom: 30px;
+  position: relative;
+}
+.slider .owl-item.active.center .slider-card {
+  transform: scale(1.15);
+  opacity: 1;
+  background: #ff9966; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #ff5e62, #ff9966); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #ff5e62, #ff9966); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
+}
+.slider-card {
+  background: #fff;
+  padding: 0px 0px;
+  margin: 50px 15px 90px 15px;
+  border-radius: 5px;
+  box-shadow: 0 15px 45px -20px rgb(0 0 0 / 73%);
+  transform: scale(0.9);
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+.slider-card img {
+  border-radius: 5px 5px 0px 0px;
+}
+.owl-nav .owl-prev {
+  position: absolute;
+  top: calc(50% - 25px);
+  left: 0;
+  opacity: 1;
+  font-size: 30px !important;
+  z-index: 1;
+}
+.owl-nav .owl-next {
+  position: absolute;
+  top: calc(50% - 25px);
+  right: 0;
+  opacity: 1;
+  font-size: 30px !important;
+  z-index: 1;
+}
+.owl-dots {
+  text-align: center;
+}
+.owl-dots .owl-dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 10px;
+  background: #ccc !important;
+  margin-left: 3px;
+  margin-right: 3px;
+  outline: none;
+}
+.owl-dots .owl-dot.active {
+  background: #f44336 !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url("https://use.fontawesome.com/releases/v5.7.1/css/all.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgba(17, 17, 17, 0.7);
+}
+
+header h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #fff;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  margin-left: 40px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: #06d6a0;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1491813710299-0b9fad31f620");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-content h2 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  animation: slide-in 1s ease-in-out;
+}
+
+.hero-content p {
+  font-size: 24px;
+  margin-bottom: 40px;
+  animation: slide-in 1s ease-in-out;
+}
+
+.btn {
+  background-color: #06d6a0;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #06d6a0;
+}
+
+.features {
+  padding: 100px 0;
+  background-color: #fff;
+}
+
+.features h2 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+  animation: fade-in 1s ease-in-out;
+}
+
+.features ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.features li {
+  width: 30%;
+  margin-bottom: 50px;
+  animation: zoom-in 1s ease-in-out;
+}
+
+.features li .icon {
+  background-color: #06d6a0;
+  color: #fff;
+  font-size: 36px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.features li h3 {
+  font-size: 24px
+@import url("https://use.fontawesome.com/releases/v5.7.1/css/all.css");
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgba(17, 17, 17, 0.7);
+}
+
+header h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #fff;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  margin-left: 40px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: #06d6a0;
+}
+
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-content h2 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  animation: slide-in 1s ease-in-out;
+}
+
+.hero-content p {
+  font-size: 24px;
+  margin-bottom: 40px;
+  animation: slide-in 1s ease-in-out;
+}
+
+.btn {
+  background-color: #06d6a0;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #06d6a0;
+}
+
+
+.features {
+  padding: 100px 0;
+  background-color: rgba(255, 255, 255, 0.8); /* white with 80% opacity */
+}
+.features {
+  padding: 100px 0;
+  background-color: rgba(255, 255, 255, 0.8); /* white with 80% opacity */
+}
+
+
+.features h2 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+  animation: fade-in 1s ease-in-out;
+}
+
+.features ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.features li {
+  width: 30%;
+  margin-bottom: 50px;
+  animation: zoom-in 1s ease-in-out;
+}
+
+.features li .icon {
+  background-color: #06d6a0;
+  color: #fff;
+  font-size: 36px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.features li h3 {
+  font-size: 24px
+}
+.join-mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: #06d6a0;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #000;
+  background-image: url("../image.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+}
+
+a:hover {
+  color: darkslateblue;
+}
+
+header {
+  position: relative;
+  padding: 0 2rem;
+}
+
+.navbar {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .logo a {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  background-image: url;
+}
+
+.navbar .links {
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar .toggle_btn {
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+
+.action_btn {
+  background-color: lightblue;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: scale 0.2s ease;
+}
+
+.action_btn:hover {
+  transform: scale(1.05);
+  color: #fff;
+}
+
+.action_btn:active {
+  transform: scale(0.95);
+}
+
+.dropdown_menu {
+  display: none;
+  position: absolute;
+  right: 2rem;
+  top: 60px;
+  height: 0;
+  width: 300px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.dropdown_menu li {
+  padding: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropdown_menu .action_btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 922px) {
+  .navbar .links,
+  .navbar .action_btn {
+    display: none;
+  }
+
+  .navbar .toggle_btn {
+    display: block;
+  }
+
+  .dropdown_menu {
+    position: static;
+    height: auto;
+    background: none;
+    backdrop-filter: none;
+    border-radius: 0;
+    overflow: visible;
+    margin-top: 1rem;
+  }
+
+  .dropdown_menu li {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+  }
+  .navbar .links {
+    display: none;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .navbar .links li {
+    display: block;
+    margin: 5px 0;
+  }
+  .navbar .toggle_btn {
+    display: block;
+    margin-left: auto;
+  }
+  .dropdown_menu {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.9);
+    border-radius: 0;
+    overflow: hidden;
+    z-index: 1;
+  }
+  .dropdown_menu.open {
+    display: block;
+  }
+  .dropdown_menu li {
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+  }
+  .dropdown_menu .action_btn {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  .navbar{
+  width: 100%;
+  height: 60px;
+  max-width: 1200px;
+  margin:0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-text {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  background-image: url;
+}
+
+.logo-image {
+  width: 100px;
+  height: 100px;
+  margin-left: 20px; /* adjust as needed */
+}
+
+@media screen and (max-width: 768px) {
+  /* mobile styles */
+  .logo-container {
+    flex-wrap: wrap;
+  }
+
+  .logo-text,
+  .logo-image {
+    width: 50%; /* adjust as needed */
+    text-align: center;
+  }
+
+  .logo-image {
+    margin-left: 0;
+    margin-top: 10px; /* adjust as needed */
+  }
+}
+.slideshow-container > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation: slideshow 9s infinite;
+}
+footer {
+  clear: both;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+}
+
+.scroll-container {
+  position: relative;
+  height: 400vh;
+  overflow: hidden;
+}
+
+.scroll-page {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.scroll-page:nth-child(1) {
+  background-image: url('image1.jpg');
+}
+
+.scroll-page:nth-child(2) {
+  background-image: url('image2.jpg');
+}
+
+.scroll-page:nth-child(3) {
+  background-image: url('image3.jpg');
+}
+
+.scroll-page:nth-child(4) {
+  background-image: url('image4.jpg');
+}
+
+@media (max-width: 768px) {
+  .scroll-container {
+    height: 800vh;
+  }
+  .scroll-page {
+    height: 200vh;
+  }
+}
+}
+.one{
+  background-image: url(../images/pic1.jpg);
+}
+.two{
+  background-image: url(/images/pic2.jpg);
+}
+.three{
+  background-image: url(/images/pic3.jpg);
+}
+.four{
+  background-image: url(/images/pic1.jpg);
+}
+.five{
+  background-image: url(/images/pic1.jpg);
+}
+
