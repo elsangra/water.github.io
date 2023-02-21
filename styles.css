@@ -279,12 +279,6 @@ a:hover {
         font-size: 16px;
     }
 }
-.hero {
-  background-image: url('');
-  background-size: cover;
-  background-position: center;
-}
-
 
 @media (max-width: 858px) {
     .checkbtn {
@@ -317,44 +311,313 @@ a:hover {
         left: 0;
     }
 }
-.hero {
-  background-image: url('https://imageio.forbes.com/specials-images/imageserve/5f962984fe3282ac81f68758/The-Aston-Martin-DBS-Superleggera---/960x0.jpg?format=jpg&width=960');
-  background-size: cover;
-  background-position: center;
-  background-color: yellow;
 
-
+.main {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(maasai.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
 
-.hero {
-  position: relative;
+*,
+:after,
+:before {
+    box-sizing: border-box
 }
-.hero .background-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
+
+.hr {
+    height: 2px;
+    margin: 60px 0 50px 0;
+    background: rgba(255, 255, 255, .2);
 }
-.hero .background-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+
+.image1 {
+    margin: 40px auto;
+    width: 80%;
+    padding: 5px;
 }
-.hero {
-  position: relative;
+
+.text1 {
+    text-align: justify;
+    font-family: verdana;
 }
-.hero .background-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
+
+.image2 {
+    margin: 40px auto;
+    width: 80%;
+    padding: 5px;
 }
-.hero .background-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+
+.text2 {
+    text-align: justify;
+    font-family: verdana;
+}
+
+.image3 {
+    margin: 40px auto;
+    width: 80%;
+    padding: 5px;
+}
+
+.text3 {
+    text-align: justify;
+    font-family: verdana;
+}
+
+.foot-lnk {
+    text-align: center;
+}
+
+.bg-grey {
+    background: #292929;
+}
+
+.logo-footer {
+    margin-bottom: 40px;
+}
+
+footer {
+    color: grey;
+}
+
+footer p,
+a {
+    font-size: 18px;
+    color: antiquewhite font-family: sans-serif;
+}
+
+footer h6 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+footer h6:after {
+    position: absolute;
+    content: "";
+    background: grey;
+    width: 12%;
+    height: 1px;
+    left: 0;
+    bottom: -20px;
+}
+
+.btn-footer {
+    color: grey;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 43px;
+    font-size: 13px;
+    padding: 7px 30px;
+    line-height: 47px;
+}
+
+.btn-footer:hover {
+    text-decoration: none;
+}
+
+.form-footer input[type="text"] {
+    border: none;
+    border-radius: 16px 0 0 16px;
+    outline: none;
+    padding-left: 10px;
+}
+
+::placeholder {
+    font-size: 10px;
+    padding-left: 10px;
+    font-style: italic;
+}
+
+.form-footer input[type="button"] {
+    border: none;
+    background: #232323;
+    margin-left: -5px;
+    color: #fff;
+    outline: none;
+    border-radius: 0 16px 16px 0;
+    padding: 2px 12px;
+}
+
+.social .fa {
+    color: grey;
+    font-size: 22px;
+    padding: 10px 15px;
+    background: #3c3c3c;
+}
+
+footer ul li {
+    list-style: none;
+    display: block;
+}
+
+footer ul {
+    padding-left: 0;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: grey;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #f5f5f5 !important;
+}
+
+.logo-part {
+    border-right: 1px solid grey;
+    height: 100%;
+}
+
+#blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.blog-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-heading span {
+    color: #f33c3c;
+}
+
+.blog-heading h3 {
+    font-size: 2.4rem;
+    color: #dad4d4;
+    font-weight: 600;
+}
+
+.blog-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+
+.blog-box {
+    width: 350px;
+    background-color: #ffffff;
+    border: 1px solid #ececec;
+    margin: 20px 20px;
+}
+
+.blog-img {
+    width: 100%;
+    height: auto;
+}
+
+.blog-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.blog-text {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-text span {
+    color: #f33c3c;
+    font-size: 0.9rem;
+}
+
+.blog-text .blog-title {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #272727;
+}
+
+.blog-text p {
+    color: #9b9b9b;
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
+}
+
+.blog-text a {
+    color: #0f0f0f;
+}
+
+.blog-text a:hover {
+    color: #c74242;
+    transition: all ease 0.3s;
+}
+
+@media(max-width:1250px) {
+    .blog-box {
+        width: 300px;
+    }
+}
+
+@media(max-width:1100px) {
+    .blog-box {
+        width: 70%;
+    }
+}
+
+@media(max-width:550px) {
+    .blog-box {
+        margin: 20px 10px;
+        width: 100%;
+    }
+    #blog {
+        padding: 20px;
+    }
+}
+
+* {
+    box-sizing: border-box
+}
+
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.content h2{
+    position: absolute;
+    color: #fff;
+    transform: translate(-50%,-50%);
+    font-size: 10em;
+    background-color: darkred;
+}
+.content h2:nth-child(1)
+{
+    color: transparent;
+    -webkit-text-stroke: 2px #03a9f4;
+}
+.content1 h2:nth-child(2)
+{
+    color: transparent;
+    animation: animate 4s ease-in-out infinite;
+}
+@keyframes animate
+{
+    0%,100%
+    {
+        clip-path: polygon(0% 45%,15% 44%,32% 50%,54% 60%,70% 61%,84% 59%,100% 52%,100% 100%,0% 100%);
+    }
+    50%
+    {
+        clip-path: polygon(0% 60%,16% 65%,34% 66%,51% 62%,67% 50%,84% 45%,100% 46%,100% 100%,0% 100%);
+    }
 }

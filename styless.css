@@ -536,3 +536,7 @@ a:hover {
 * {
     box-sizing: border-box
 }
+.hero{
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),url(pic1.jpg);
+    background-size: cover;
+}
